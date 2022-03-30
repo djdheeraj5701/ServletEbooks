@@ -1,0 +1,24 @@
+CREATE DATABASE wtl05;
+
+use wtl05;
+
+create table books(
+	book_id int not null auto_increment,
+	book_title varchar(50) not null,
+	book_author varchar(50) not null,
+	book_price float not null,
+	qty int not null,
+	primary key (book_id)
+);
+
+insert into books(book_title, book_author, book_price, qty) values 
+('13 reasons why','R D Sharma', 200, 2015),
+('la casa de papel','H C Verma', 320, 2000),
+('The Witcher','Tanenbun', 340, 2001),
+('Dark','Hugh Jones', 500, 2004),
+('F.R.I.E.N.D.S','Will Smith', 200, 2020),
+('Sacred games','J K Rowling', 420, 2015),
+('Riverdale','Ben Tennyson', 240, 2006),
+('Penthouse','Drake', 500, 2005),
+('W : Two worlds','Zarco', 210, 2020),
+('Game of Thrones','Zarco', 500, 2005);
