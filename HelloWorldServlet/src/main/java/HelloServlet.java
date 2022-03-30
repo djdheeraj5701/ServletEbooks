@@ -52,7 +52,7 @@ public class HelloServlet extends HttpServlet {
 		
 		String url = "jdbc:mysql://localhost:3306/wtl05";
 		String uname = "root";
-		String password = "Dh@050701$";
+		String password = "******";
 		
 		try {
 			Connection connection = DriverManager.getConnection(url, uname, password);
